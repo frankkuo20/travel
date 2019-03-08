@@ -8,6 +8,7 @@
 
 
 旅遊資訊 travel.csv
+前面打* 是指至少抓取的欄位
 
 * id: pk auto_increase
 * 旅行社: FK(旅行社)
