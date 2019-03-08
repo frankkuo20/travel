@@ -45,12 +45,13 @@
 * 抵達城市: FK(城市)
 * 出發地: FK(機場)
 * 目的地: FK(機場)
+* 航空公司: FK(航空公司)
 
 ## 檔案說明
 
 * travelCrawler.py: 主程式
 * requirements.txt: 程式環境
-* travel.csv: 旅遊資訊資料
+* travel.csv: 旅遊資訊資料 (目前是抓取1到5頁的資料)
 * flight.csv: 航班資料
 
 ## travelCrawler.py 程式架構

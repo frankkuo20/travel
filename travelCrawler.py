@@ -154,7 +154,7 @@ class MainApp:
                       '行程號', '天數', '航班', '起飛日期',
                       '起飛時間', '抵達日期', '抵達時間',
                       'RoutId', '出發城市', '抵達城市', '出發地',
-                      '目的地']
+                      '目的地', '航空公司']
         csvFile = open(flightCsvPath, 'w', newline='')
         csv_file_writer = csv.writer(csvFile)
         csv_file_writer.writerow(flightHead)
