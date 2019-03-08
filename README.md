@@ -85,7 +85,7 @@ OrangeTravel, NewamazingTravel 這兩個類別要去 特定網頁的爬蟲程式
 
 
 MainApp 是做 資料存檔 這裡是使用csv 格式
-去新建 OrangeTravel 與 NewamazingTravel, 並跑run()，都可以拿到travelData 和 flightData，分別寫檔案
+去新建 OrangeTravel 與 NewamazingTravel, 並跑run()，都可以拿到travelData 和 flightData，分別寫csv檔案
 
 ### 擴充及維護性
 
