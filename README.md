@@ -60,6 +60,7 @@ python travelCrawler.py
 參數
 * 第一個參數是 抓第幾頁 default=1
 * 第二個參數是 抓到幾頁 default=1
+
 Ex. python travelCrawler.py 1 5
 
 使用requests 抓取資料
