@@ -3,30 +3,6 @@ import sys
 
 import requests
 
-'''
-https://www.tripresso.com/agency/NEWAMAZE
-'''
-
-
-class SaveCsv:
-    def __init__(self):
-        self._csvPath = 'test.csv'
-
-        self._head = ['旅行社',
-                      '行程號', '旅遊天數', '產品名稱', '出發日期',
-                      '價錢', '可售位', '總團位',
-                      '星期', '備註', '報名狀態', '是否保證出團',
-                      '是否促銷', '是否額滿', '類型', '旅程連結', '封面圖片連結']
-        self._csvFile = open(self._csvPath, 'a', newline='')
-        self._csv_file_writer = csv.writer(self._csvFile)
-        self._csv_file_writer.writerows([self._head])
-
-    def writeRow(self, row):
-        self._csv_file_writer.writerows(row)
-
-    def close(self):
-        self._csvFile.close()
-
 
 class Base:
     def __init__(self, page=1, endPage=1):
@@ -156,14 +132,13 @@ class MainApp:
     def __init__(self, page, endPage):
         orangeTravel = OrangeTravel(page, endPage)
         orangeTravel.run()
-        # orangeTravel.filghtCrawler('BWNBI90314GA', '23420481')
 
         newamazingTravel = NewamazingTravel(page, endPage)
         newamazingTravel.run()
 
         travelCsvPath = 'travel.csv'
         travelHead = ['旅行社',
-                      '行程號', '旅遊天數', '產品名稱', '出發日期',
+                      '行程號', '旅遊天數', '行程名稱', '出發日期',
                       '價錢', '可售位', '總團位',
                       '星期', '備註', '報名狀態', '是否保證出團',
                       '是否促銷', '是否額滿', '類型', '旅程連結', '封面圖片連結']

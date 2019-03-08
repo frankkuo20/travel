@@ -1,4 +1,4 @@
-旅行社,行程號,旅遊天數,產品名稱,出發日期,價錢,可售位,總團位,星期,備註,報名狀態,是否保證出團,是否促銷,是否額滿,類型,旅程連結,封面圖片連結
+旅行社,行程號,旅遊天數,行程名稱,出發日期,價錢,可售位,總團位,星期,備註,報名狀態,是否保證出團,是否促銷,是否額滿,類型,旅程連結,封面圖片連結
 澄心誠意澄果旅遊OrangeTour,SS1090308TKA,10,西班牙 七大城 聖家堂 佛朗明哥晚餐秀10日,2019/03/08,63900,0,26,五,,"{'Status': 1, 'Name': '請電洽', 'Url': ''}",False,False,False,團,/EW/GO/GroupDetail.asp?prodCd=SS1090308TKA,/eWeb_asiantour/IMGDB/000055/000057/00003919.JPG
 澄心誠意澄果旅遊OrangeTour,SS01190308B,10,超值西葡雙國 巴塞隆納 全覽10天(一內陸段飛機),2019/03/08,66900,0,26,五,額滿,"{'Status': 1, 'Name': '請電洽', 'Url': ''}",False,False,False,團,/EW/GO/GroupDetail.asp?prodCd=SS01190308B,/eweb_asiantour/images/default_demo.jpg
 澄心誠意澄果旅遊OrangeTour,0CNX190309FD,5,【亞洲航空】清邁自由行5天-精選酒店(含稅),2019/03/09,13500,20,20,六,,"{'Status': 3, 'Name': '報名', 'Url': '/EW/GO/GroupOrder.asp?prodCd=0CNX190309FD'}",False,False,False,團,/EW/GO/GroupDetail.asp?prodCd=0CNX190309FD,/eWeb_asiantour/IMGDB/000320/00007320.JPG
